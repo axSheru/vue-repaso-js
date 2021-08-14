@@ -2,7 +2,7 @@
 
 import superHeroes from '../data/heroes';
 
-console.log(superHeroes)
+//console.log(superHeroes)
 
 export const getHeroByID = (id) => superHeroes.find(heroe => heroe.id === id)
 
