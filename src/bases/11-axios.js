@@ -10,7 +10,7 @@ const giphyApi = axios.create({
     }
 })
 
-giphyApi.get('/random')
+/* giphyApi.get('/random')
     .then( resp => {
 
         const { data } = resp.data
@@ -21,5 +21,5 @@ giphyApi.get('/random')
         img.src = url
         
         document.body.append( img )
-    })
+    }) */
 
